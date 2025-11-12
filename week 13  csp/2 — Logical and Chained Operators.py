@@ -20,12 +20,14 @@ print(1 < x < 20)         # True
 
 
 # Practice Problems:
-
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
-
+number= 68 
+if 50 <= number < 101:
+    print("The number is between or equal to 50 or 100.")
+else:
+    print("The number is outside the range.")
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
 
 # Use chained comparison to check if 3 < 4 < 5.
 
 # Challenge: Create a password rule using logical operators:
-
