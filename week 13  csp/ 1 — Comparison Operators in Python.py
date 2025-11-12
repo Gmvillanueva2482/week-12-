@@ -10,7 +10,7 @@
 
 # Remember: = is assignment, while == is comparison.
 
-a = 3  gg
+a = 3 
 b = 4
 print(a) #output 3
 print(b) #output 4
@@ -47,7 +47,7 @@ score = int(input(" what is your score?"))
 # make this program for all grading spectrums
 # if the score is between 90 - 100 -- you got an A
 # if the score is between 80 - 89 -- you got a B
-# if the score is between 70-79 -- you got a C\
+# if the score is between 70-79 -- you got a C
 # if between 61 - 69 ,,, you goy a D
 # else you failed
 if score >= 60:
@@ -57,11 +57,17 @@ else:
 
 if score >= 90 & score <= 100:
     print (" you got an A!")
-
 elif score >= 80 & score <= 89:
     print (" you got an B!")
-
-elif score >= 70 & score <= 79:
-    print(" you got an C")                                                                                                    E
-# ask for a password  jkjkkjlkjlkjkjllkjkll;l;;l;l;l;l
-#password = input("what is your password?")  bfgb   b
+elif score >= 70 & score <= 79:   
+    print(" you got an C")              
+elif score >= 60 & score <= 69:
+    print(" you got an D")             
+else:
+    print( "You failed and go to aclab")
+# ask for a password  
+password = input("what is your password?")  
+if len (password) >= 8 and any ( chr isdigit() for char in password):
+    print("Password is Valid.")
+else:
+    print("Password is invalid.") 
