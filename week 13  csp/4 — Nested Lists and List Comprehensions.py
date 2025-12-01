@@ -72,6 +72,10 @@ third_col=[row[2] for row in matrix_2]
 print(third_col)
 
 # Challenge: Create a new list containing squares of numbers from 1–10 using a comprehension.
+squares = [x**2 for x in range(1,11)]
+for x in range (1,11):
+  print(x**2)
 
+  print(squares)
 
 
