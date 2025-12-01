@@ -5,9 +5,9 @@
 Weather = "rainy"
 Temp = "13" 
 
-if Weather == "rainy" and Temp < 15: 
+if Weather == "rainy" or Temp < 15: 
     print ("Wear a coat and make sure to bring an umbrella")
-elif Weather == "sunny" and Temp > 30:
+elif Weather == "sunny" or Temp > 30:
     print("Wear something cool and drink some water")
 elif Weather == "cloudy" or Temp < 10 :
     print("Weather is a bit chilly may have to wear a coat")
