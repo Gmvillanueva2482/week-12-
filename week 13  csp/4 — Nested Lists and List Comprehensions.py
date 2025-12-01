@@ -1,5 +1,29 @@
 # Objective:
-# Students will manipulate nested lists and understand basic list comprehensions.
+fruits= ["apple", "orange", "banana", "coconut"]
+vetegables= ["celery", "carrots","potatoes"]
+meats = ["chicken", "fish", "turkey"]
+
+groceries = ["fruits","vetegables","meats"]
+
+print(groceries[1][2])
+print(groceries[2][1])
+
+groceries= [["apple", "orange", "banana", "coconut"],["celery", "carrots","potatoes"],["chicken", "fish", "turkey"]]
+
+
+
+
+for collection in groceries:
+  for food in collection:
+    print(food,end = " ")
+
+
+num_pad = ((1,2, 3),(4,5,6),(7,8,9),("*",0,"#"))
+for row in num_pad:
+  for num in row:
+    print(num, end= "")
+    print()
+                   # Students will manipulate nested lists and understand basic list comprehensions.
 
 # Key Notes:
 
